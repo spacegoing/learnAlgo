@@ -1,0 +1,18 @@
+- counting sort algorithm, for example, assumes that the input
+  numbers are in the set {0 1... k}. using array indexing as a
+  tool for determining relative order, counting sort can sort n
+  numbers in O(k+n) time. Thus, when k = O(n), counting sort runs
+  in time that is linear in the size of the input array. 
+
+- radix sort, can be used to extend the range of counting sort. If
+  there are n integers to sort, each integer has d digits, and each
+  digit can take on up to k possible values, then radix sort can
+  sort the numbers in O(d(k+n)) time. When d is a constant and k
+  is O(n), radix sort runs in linear time.
+
+- bucket sort, requires knowledge of the probabilistic distribution
+  of numbers in the input array. It can sort n real numbers
+  uniformly distributed in the half-open interval [0, 1) in
+  average-case O(n) time. worst O(n^2).
+
+- Radix v.s. quick: 1. memory 2. hardware implementation

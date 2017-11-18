@@ -62,5 +62,4 @@ public class Prac625_Max_Heapify_NoRescursive {
 		a = new int[]{27, 17, 3, 10, 13, 10};
 		m.maxHeapify_NoRescursive(a,6, a.length - 1);
 	}
-
 }
